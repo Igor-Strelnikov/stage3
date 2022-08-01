@@ -1,0 +1,82 @@
+body {
+    margin: 0;   
+    font-family:'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title, .subtitle, .header-link {
+    font-family: 'Cormorant SC', serif;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.contacts-icon {    
+margin-right: 20px;
+}
+
+.title {
+    color: rgba(82, 3, 161, 0.836);
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 2px solid rgba(82, 3, 161, 0.836);
+    text-align: center;   
+}
+
+.aside {
+    width: 300px;
+    flex: 0;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.header-link {
+    margin: 0 10px;
+}
+
+.link {
+    color: rgba(82, 3, 161, 0.836);
+    transition: color 2s;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgba(220, 163, 19, 0.836);
+}
+
+ .img {
+    width: 300px;
+    border: 1px solid rgb(5, 60, 148);
+}
+
+
+.subtitle {
+    border-left: 5px solid rgba(82, 3, 161, 0.836);
+    padding-left: 10px;
+    margin-top: 20px;
+    color: rgba(82, 3, 161, 0.836);
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid rgba(82, 3, 161, 0.836);
+    text-align: center;
+}
